@@ -10,7 +10,7 @@ variable "PUBLIC_KEY_PATH"  {
     default = "~/.ssh/id_rsa.pub"
 } 
 variable "AWS_REGION" {
-    default = "eu-west-1"
+    default = "us-east-1"
 }
 variable "AMIS"{
     type = "map"
